@@ -1,0 +1,43 @@
+Arguments: 
+  /Users/arietrost/.nvm/versions/node/v8.6.0/bin/node /Users/arietrost/.nvm/versions/node/v8.6.0/bin/yarn install jquery
+
+PATH: 
+  /Users/arietrost/.rbenv/shims:/Users/arietrost/.nvm/versions/node/v8.6.0/bin:/Users/arietrost/.rbenv/bin:/usr/local/bin:/usr/bin:/bin:/usr/sbin:/sbin:/opt/X11/bin:/usr/local/sbin:/usr/local/bin:/usr/X11/bin
+
+Yarn version: 
+  1.5.1
+
+Node version: 
+  8.6.0
+
+Platform: 
+  darwin x64
+
+npm manifest: 
+  {
+    "name": "jest_with_ejs",
+    "version": "1.0.0",
+    "description": "a repro repo for jest with backbone and lodash templating ",
+    "main": "index.js",
+    "author": "<atrost@marketron.com>",
+    "license": "MIT",
+    "dependencies": {
+      "backbone": "^1.3.3",
+      "jquery": "^3.3.1"
+    }
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
+
+Trace: 
+  Error: `install` has been replaced with `add` to add new dependencies. Run "yarn add jquery" instead.
+      at new MessageError (/Users/arietrost/.nvm/versions/node/v8.6.0/lib/node_modules/yarn/lib/cli.js:186:110)
+      at Object.<anonymous> (/Users/arietrost/.nvm/versions/node/v8.6.0/lib/node_modules/yarn/lib/cli.js:21987:13)
+      at Generator.next (<anonymous>)
+      at step (/Users/arietrost/.nvm/versions/node/v8.6.0/lib/node_modules/yarn/lib/cli.js:98:30)
+      at /Users/arietrost/.nvm/versions/node/v8.6.0/lib/node_modules/yarn/lib/cli.js:109:13
+      at <anonymous>
